@@ -6,7 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  infoMessage:string = "I am info message!";
-  infoBackground:string = "lightblue";
-  infoColor:string="black";
+ public infoMessage:string = "I am info message!";
+ public infoBackground:string = "lightblue";
+ public infoColor:string="black";
+
+ public username:string='';
+
+  constructor(){
+
+  }
+
+  public resetUsername(){
+    this.username = '';
+  }
 }

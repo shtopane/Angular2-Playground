@@ -1,11 +1,23 @@
 <h1>Udemy Course</h1>
 <h2>Angular 2/4 Course project</h2>
-
+<hr>
+<br>
 <!-- <app-warning></app-warning>
 <app-success></app-success> -->
+<div class="container">
+  <h4>Assignment 1 - Components</h4>
+  <app-alert [alertBackground]="infoBackground" [alertColor]="infoColor" [alertMessage]="infoMessage" [alertBorder]="'1px solid blue'"></app-alert>
+  <app-alert [alertBackground]="'lightyellow'" [alertColor]="'goldenrod'" [alertMessage]="'I am a warning and with no variable assigned to me!'" [alertBorder]="'1px solid gold'"></app-alert>
+  <app-alert [alertBackground]="'lightgreen'" [alertColor]="'green'" [alertMessage]="'I am a success message and with no field assigned to me!'" [alertBorder]="'1px solid darkseagreen'"></app-alert>  
+</div>
 
-<app-alert [alertBackground]="infoBackground" [alertColor]="infoColor" [alertMessage]="infoMessage" [alertBorder]="'1px solid blue'"></app-alert>
-<app-alert [alertBackground]="'lightyellow'" [alertColor]="'goldenrod'" [alertMessage]="'I am a warning and with no variable assigned to me!'" [alertBorder]="'1px solid gold'"></app-alert>
-<app-alert [alertBackground]="'lightgreen'" [alertColor]="'green'" [alertMessage]="'I am a success message and with no field assigned to me!'" [alertBorder]="'1px solid darkseagreen'"></app-alert>
+<hr>
+<br>
 
-
+<div class="container">
+  <h4>Assignment 2 - DataBinding</h4>
+  
+  <input class="form-control" type="text" [(ngModel)]="username">
+  <p>{{username}}</p>
+  <button class="btn btn-primary" [disabled]="!username" (click)="resetUsername()">Reset</button>
+</div>
