@@ -1,5 +1,11 @@
 <h1>Udemy Course</h1>
 <h2>Angular 2/4 Course project</h2>
 
-<app-warning></app-warning>
-<app-success></app-success>
+<!-- <app-warning></app-warning>
+<app-success></app-success> -->
+
+<app-alert [alertBackground]="infoBackground" [alertColor]="infoColor" [alertMessage]="infoMessage" [alertBorder]="'1px solid blue'"></app-alert>
+<app-alert [alertBackground]="'lightyellow'" [alertColor]="'goldenrod'" [alertMessage]="'I am a warning and with no variable assigned to me!'" [alertBorder]="'1px solid gold'"></app-alert>
+<app-alert [alertBackground]="'lightgreen'" [alertColor]="'green'" [alertMessage]="'I am a success message and with no field assigned to me!'" [alertBorder]="'1px solid darkseagreen'"></app-alert>
+
+

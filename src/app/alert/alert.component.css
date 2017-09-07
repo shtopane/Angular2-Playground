@@ -1,0 +1,14 @@
+.alert{
+    padding:10px 0;
+    width:96%;
+}
+
+.alert > div{
+    width:96%;
+    margin:0 auto;
+    padding:25px;
+}
+
+.alert > div > span{
+    font-size:18px;
+}

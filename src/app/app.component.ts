@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  infoMessage:string = "I am info message!";
+  infoBackground:string = "lightblue";
+  infoColor:string="black";
 }
