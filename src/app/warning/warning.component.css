@@ -1,0 +1,11 @@
+div{
+    padding:25px;
+    width:96%;
+    margin:0 auto;
+    background:lightyellow;
+}
+
+.warning-alert{
+    font-size:18px;
+    color:darkgoldenrod;
+}

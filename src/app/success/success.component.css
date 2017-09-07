@@ -1,0 +1,11 @@
+div{
+    background:lightgreen;
+    width:96%;
+    margin:0 auto;
+    padding:25px;
+}
+
+.success-alert{
+    font-size:18px;
+    color:green;
+}
