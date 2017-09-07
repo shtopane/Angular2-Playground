@@ -12,11 +12,18 @@ export class AppComponent {
 
  public username:string='';
 
+ public isClicked:boolean = false;
+
   constructor(){
 
   }
 
   public resetUsername(){
     this.username = '';
+  }
+
+  public toggleClick(){
+    console.log(this.isClicked)
+    this.isClicked = !this.isClicked;
   }
 }
