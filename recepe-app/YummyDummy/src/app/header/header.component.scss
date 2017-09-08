@@ -1,0 +1,10 @@
+@import "../../../node_modules/bulma/sass/utilities/initial-variables";
+
+$navbar-background-color: #009C7B;
+$navbar-dropdown-background-color:#009C7B;
+$navbar-item-color:#fff;
+$navbar-item-hover-background-color:#008C6E;
+$navbar-item-active-color:#d6d6d6;
+$navbar-height:5rem;
+
+@import "../../../node_modules/bulma/bulma"
